@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/UrbanApps/UAObfuscatedString"
   s.license      = 'MIT'
   s.author       = { "Matt Coneybeare" => "coneybeare@urbanapps.com" }
-  s.source       = { :git => "#{s.homepage}.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/Plaputta/UAObfuscatedString.git", :tag => s.version.to_s }
   s.source_files = "UAObfuscatedString.[h|m]"
   s.requires_arc = true # https://github.com/CocoaPods/CocoaPods/issues/2712
 end

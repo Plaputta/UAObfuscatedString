@@ -10,60 +10,60 @@
 @implementation NSMutableString (UAObfuscatedString)
 
 #pragma mark - a-z -
-- (instancetype)a { [self appendString:@"a"]; return self; }
-- (instancetype)b { [self appendString:@"b"]; return self; }
-- (instancetype)c { [self appendString:@"c"]; return self; }
-- (instancetype)d { [self appendString:@"d"]; return self; }
-- (instancetype)e { [self appendString:@"e"]; return self; }
-- (instancetype)f { [self appendString:@"f"]; return self; }
-- (instancetype)g { [self appendString:@"g"]; return self; }
-- (instancetype)h { [self appendString:@"h"]; return self; }
-- (instancetype)i { [self appendString:@"i"]; return self; }
-- (instancetype)j { [self appendString:@"j"]; return self; }
-- (instancetype)k { [self appendString:@"k"]; return self; }
-- (instancetype)l { [self appendString:@"l"]; return self; }
-- (instancetype)m { [self appendString:@"m"]; return self; }
-- (instancetype)n { [self appendString:@"n"]; return self; }
-- (instancetype)o { [self appendString:@"o"]; return self; }
-- (instancetype)p { [self appendString:@"p"]; return self; }
-- (instancetype)q { [self appendString:@"q"]; return self; }
-- (instancetype)r { [self appendString:@"r"]; return self; }
-- (instancetype)s { [self appendString:@"s"]; return self; }
-- (instancetype)t { [self appendString:@"t"]; return self; }
-- (instancetype)u { [self appendString:@"u"]; return self; }
-- (instancetype)v { [self appendString:@"v"]; return self; }
-- (instancetype)w { [self appendString:@"w"]; return self; }
-- (instancetype)x { [self appendString:@"x"]; return self; }
-- (instancetype)y { [self appendString:@"y"]; return self; }
-- (instancetype)z { [self appendString:@"z"]; return self; }
+- (instancetype)_a { [self appendString:@"a"]; return self; }
+- (instancetype)_b { [self appendString:@"b"]; return self; }
+- (instancetype)_c { [self appendString:@"c"]; return self; }
+- (instancetype)_d { [self appendString:@"d"]; return self; }
+- (instancetype)_e { [self appendString:@"e"]; return self; }
+- (instancetype)_f { [self appendString:@"f"]; return self; }
+- (instancetype)_g { [self appendString:@"g"]; return self; }
+- (instancetype)_h { [self appendString:@"h"]; return self; }
+- (instancetype)_i { [self appendString:@"i"]; return self; }
+- (instancetype)_j { [self appendString:@"j"]; return self; }
+- (instancetype)_k { [self appendString:@"k"]; return self; }
+- (instancetype)_l { [self appendString:@"l"]; return self; }
+- (instancetype)_m { [self appendString:@"m"]; return self; }
+- (instancetype)_n { [self appendString:@"n"]; return self; }
+- (instancetype)_o { [self appendString:@"o"]; return self; }
+- (instancetype)_p { [self appendString:@"p"]; return self; }
+- (instancetype)_q { [self appendString:@"q"]; return self; }
+- (instancetype)_r { [self appendString:@"r"]; return self; }
+- (instancetype)_s { [self appendString:@"s"]; return self; }
+- (instancetype)_t { [self appendString:@"t"]; return self; }
+- (instancetype)_u { [self appendString:@"u"]; return self; }
+- (instancetype)_v { [self appendString:@"v"]; return self; }
+- (instancetype)_w { [self appendString:@"w"]; return self; }
+- (instancetype)_x { [self appendString:@"x"]; return self; }
+- (instancetype)_y { [self appendString:@"y"]; return self; }
+- (instancetype)_z { [self appendString:@"z"]; return self; }
 
 #pragma mark - A-Z -
-- (instancetype)A { [self appendString:@"A"]; return self; }
-- (instancetype)B { [self appendString:@"B"]; return self; }
-- (instancetype)C { [self appendString:@"C"]; return self; }
-- (instancetype)D { [self appendString:@"D"]; return self; }
-- (instancetype)E { [self appendString:@"E"]; return self; }
-- (instancetype)F { [self appendString:@"F"]; return self; }
-- (instancetype)G { [self appendString:@"G"]; return self; }
-- (instancetype)H { [self appendString:@"H"]; return self; }
-- (instancetype)I { [self appendString:@"I"]; return self; }
-- (instancetype)J { [self appendString:@"J"]; return self; }
-- (instancetype)K { [self appendString:@"K"]; return self; }
-- (instancetype)L { [self appendString:@"L"]; return self; }
-- (instancetype)M { [self appendString:@"M"]; return self; }
-- (instancetype)N { [self appendString:@"N"]; return self; }
-- (instancetype)O { [self appendString:@"O"]; return self; }
-- (instancetype)P { [self appendString:@"P"]; return self; }
-- (instancetype)Q { [self appendString:@"Q"]; return self; }
-- (instancetype)R { [self appendString:@"R"]; return self; }
-- (instancetype)S { [self appendString:@"S"]; return self; }
-- (instancetype)T { [self appendString:@"T"]; return self; }
-- (instancetype)U { [self appendString:@"U"]; return self; }
-- (instancetype)V { [self appendString:@"V"]; return self; }
-- (instancetype)W { [self appendString:@"W"]; return self; }
-- (instancetype)X { [self appendString:@"X"]; return self; }
-- (instancetype)Y { [self appendString:@"Y"]; return self; }
-- (instancetype)Z { [self appendString:@"Z"]; return self; }
+- (instancetype)_A { [self appendString:@"A"]; return self; }
+- (instancetype)_B { [self appendString:@"B"]; return self; }
+- (instancetype)_C { [self appendString:@"C"]; return self; }
+- (instancetype)_D { [self appendString:@"D"]; return self; }
+- (instancetype)_E { [self appendString:@"E"]; return self; }
+- (instancetype)_F { [self appendString:@"F"]; return self; }
+- (instancetype)_G { [self appendString:@"G"]; return self; }
+- (instancetype)_H { [self appendString:@"H"]; return self; }
+- (instancetype)_I { [self appendString:@"I"]; return self; }
+- (instancetype)_J { [self appendString:@"J"]; return self; }
+- (instancetype)_K { [self appendString:@"K"]; return self; }
+- (instancetype)_L { [self appendString:@"L"]; return self; }
+- (instancetype)_M { [self appendString:@"M"]; return self; }
+- (instancetype)_N { [self appendString:@"N"]; return self; }
+- (instancetype)_O { [self appendString:@"O"]; return self; }
+- (instancetype)_P { [self appendString:@"P"]; return self; }
+- (instancetype)_Q { [self appendString:@"Q"]; return self; }
+- (instancetype)_R { [self appendString:@"R"]; return self; }
+- (instancetype)_S { [self appendString:@"S"]; return self; }
+- (instancetype)_T { [self appendString:@"T"]; return self; }
+- (instancetype)_U { [self appendString:@"U"]; return self; }
+- (instancetype)_V { [self appendString:@"V"]; return self; }
+- (instancetype)_W { [self appendString:@"W"]; return self; }
+- (instancetype)_X { [self appendString:@"X"]; return self; }
+- (instancetype)_Y { [self appendString:@"Y"]; return self; }
+- (instancetype)_Z { [self appendString:@"Z"]; return self; }
 
 #pragma mark - Numbers -
 - (instancetype)_1 { [self appendString:@"1"]; return self; }
@@ -78,39 +78,38 @@
 - (instancetype)_0 { [self appendString:@"0"]; return self; }
 
 #pragma mark - Punctuation -
-- (instancetype)space         { [self appendString:@" "];  return self; }
-- (instancetype)point         { [self appendString:@"."];  return self; }
-- (instancetype)dash          { [self appendString:@"-"];  return self; }
-- (instancetype)comma         { [self appendString:@","];  return self; }
-- (instancetype)semicolon     { [self appendString:@";"];  return self; }
-- (instancetype)colon         { [self appendString:@":"];  return self; }
-- (instancetype)apostrophe    { [self appendString:@"'"];  return self; }
-- (instancetype)quotation     { [self appendString:@"\""]; return self; }
-- (instancetype)plus          { [self appendString:@"+"];  return self; }
-- (instancetype)equals        { [self appendString:@"="];  return self; }
-- (instancetype)paren_left    { [self appendString:@"("];  return self; }
-- (instancetype)paren_right   { [self appendString:@")"];  return self; }
-- (instancetype)asterisk      { [self appendString:@"*"];  return self; }
-- (instancetype)ampersand     { [self appendString:@"&"];  return self; }
-- (instancetype)caret         { [self appendString:@"^"];  return self; }
-- (instancetype)percent       { [self appendString:@"%"];  return self; }
-- (instancetype)$             { [self appendString:@"$"];  return self; }
-- (instancetype)pound         { [self appendString:@"#"];  return self; }
-- (instancetype)at            { [self appendString:@"@"];  return self; }
-- (instancetype)exclamation   { [self appendString:@"!"];  return self; }
-- (instancetype)back_slash    { [self appendString:@"\\"]; return self; }
-- (instancetype)forward_slash { [self appendString:@"/"];  return self; }
-- (instancetype)curly_left    { [self appendString:@"{"];  return self; }
-- (instancetype)curly_right   { [self appendString:@"}"];  return self; }
-- (instancetype)bracket_left  { [self appendString:@"["];  return self; }
-- (instancetype)bracket_right { [self appendString:@"]"];  return self; }
-- (instancetype)bar           { [self appendString:@"|"];  return self; }
-- (instancetype)less_than     { [self appendString:@"<"];  return self; }
-- (instancetype)greater_than  { [self appendString:@">"];  return self; }
-- (instancetype)underscore    { [self appendString:@"_"];  return self; }
+- (instancetype)_space         { [self appendString:@" "];  return self; }
+- (instancetype)_point         { [self appendString:@"."];  return self; }
+- (instancetype)_dash          { [self appendString:@"-"];  return self; }
+- (instancetype)_comma         { [self appendString:@","];  return self; }
+- (instancetype)_semicolon     { [self appendString:@";"];  return self; }
+- (instancetype)_colon         { [self appendString:@":"];  return self; }
+- (instancetype)_apostrophe    { [self appendString:@"'"];  return self; }
+- (instancetype)_quotation     { [self appendString:@"\""]; return self; }
+- (instancetype)_plus          { [self appendString:@"+"];  return self; }
+- (instancetype)_equals        { [self appendString:@"="];  return self; }
+- (instancetype)_paren_left    { [self appendString:@"("];  return self; }
+- (instancetype)_paren_right   { [self appendString:@")"];  return self; }
+- (instancetype)_asterisk      { [self appendString:@"*"];  return self; }
+- (instancetype)_ampersand     { [self appendString:@"&"];  return self; }
+- (instancetype)_caret         { [self appendString:@"^"];  return self; }
+- (instancetype)_percent       { [self appendString:@"%"];  return self; }
+- (instancetype)_dollar        { [self appendString:@"$"];  return self; }
+- (instancetype)_pound         { [self appendString:@"#"];  return self; }
+- (instancetype)_at            { [self appendString:@"@"];  return self; }
+- (instancetype)_exclamation   { [self appendString:@"!"];  return self; }
+- (instancetype)_back_slash    { [self appendString:@"\\"]; return self; }
+- (instancetype)_forward_slash { [self appendString:@"/"];  return self; }
+- (instancetype)_curly_left    { [self appendString:@"{"];  return self; }
+- (instancetype)_curly_right   { [self appendString:@"}"];  return self; }
+- (instancetype)_bracket_left  { [self appendString:@"["];  return self; }
+- (instancetype)_bracket_right { [self appendString:@"]"];  return self; }
+- (instancetype)_bar           { [self appendString:@"|"];  return self; }
+- (instancetype)_less_than     { [self appendString:@"<"];  return self; }
+- (instancetype)_greater_than  { [self appendString:@">"];  return self; }
+- (instancetype)_underscore    { [self appendString:@"_"];  return self; }
 
 #pragma mark - Aliases -
-- (instancetype)_   { return [self space]; }
-- (instancetype)dot { return [self point]; }
+- (instancetype)_dot { return [self _point]; }
 
 @end
